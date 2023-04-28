@@ -4,7 +4,7 @@ TipTime is an application for calculating tips. The application allows you to qu
 
 ## Installation
 
-To install the application, download the APK file from the [Release](https://github.com/nintenfox/TipTime/release) section and install it on your Android device.
+To install the application, download the APK file from the [Release](https://github.com/nintenfox/TipTime/tree/main/app/release) section and install it on your Android device.
 
 ## Usage
 
