@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    style="@style/AppTheme">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -50,7 +51,6 @@
 
         <TextView
             android:id="@+id/service_question"
-            style="@style/Widget.TipTime.TextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
@@ -70,21 +70,18 @@
 
             <RadioButton
                 android:id="@+id/option_twenty_percent"
-                style="@style/Widget.TipTime.CompoundButton.RadioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/amazing_service" />
 
             <RadioButton
                 android:id="@+id/option_fifteen_percent"
-                style="@style/Widget.TipTime.CompoundButton.RadioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/good_service" />
 
             <RadioButton
                 android:id="@+id/option_ten_percent"
-                style="@style/Widget.TipTime.CompoundButton.RadioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/ok_service" />
@@ -103,7 +100,6 @@
 
         <com.google.android.material.switchmaterial.SwitchMaterial
             android:id="@+id/round_up_switch"
-            style="@style/Widget.TipTime.CompoundButton.Switch"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -126,14 +122,12 @@
 
         <TextView
             android:id="@+id/tip_result"
-            style="@style/Widget.TipTime.TextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/calculate_button"
             tools:text="Tip amount: 10$" />
-
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
